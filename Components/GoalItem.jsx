@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, FlatList,Pressable } from 'react-native';
+import { StyleSheet, Text, View, FlatList,Pressable, } from 'react-native';
 import React from 'react';
 
 const GoalItem = ({ courseGoals,deletGoalHandler,}) => {
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         margin:8,
        
         borderRadius:6,
-        backgroundColor:"#560acc",
+        backgroundColor:"black",
         color:"white"
       },
 
